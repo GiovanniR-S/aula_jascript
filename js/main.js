@@ -1,14 +1,51 @@
-
-
-
 //Funções
 /*
+function clicou(){
+
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //alert("Obrigado por clicar")
+
+}
+
+function redirecionar(){
+
+    window.open("https://github.com/GiovanniR-S/aula_jascript");
+    //window.location.href = "https://github.com/GiovanniR-S/aula_jascript";
+
+}
+
+function trocar(elemento){
+    
+    //document.getElementById("trocar").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert("Trocar texto");
+
+}
+
+function voltar(elemento){
+
+    //document.getElementById("trocar").innerHTML = "Passe o mouse aqui!";
+    elemento.innerHTML = "Passe o mouse aqui";
+
+}
+
+function load(){
+
+    alert("Página carregada");
+
+}
+
+function funcaoChange(elemento){
+
+    console.log(elemento.value);
+
+}
+
 function soma(n1, n2){
 
     return n1 + n2;
 
 }
-
 
 function setReplace(frase, nome, nome2){
 

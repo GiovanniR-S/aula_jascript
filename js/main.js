@@ -1,10 +1,48 @@
 
+
+
+//Funções
+/*
+function soma(n1, n2){
+
+    return n1 + n2;
+
+}
+
+
+function setReplace(frase, nome, nome2){
+
+    return frase.replace(nome, nome2);
+
+}
+
+
+function validaIdade(idade){
+    var validar;
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+
+    return validar;
+}
+
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+*/
+
+//alert(soma(5, 10));
+//alert(setReplace("Vai Japão", "Japão", "Brasil"));
+
+//Date/Data
 /*
 var d = new Date();
 alert(d.getHours());
 alert(d.getMinutes());
 */
 
+//Laços
 /*
 var count;
 for(count = 0; count <= 5; count++){
@@ -35,6 +73,7 @@ if(idade >= 18){
 }
 */
 
+//Lista, Array
 //var frutas = [{nome:"Maça", cor:"vermelha"}, {nome:"Uva", cor:"roxo"}]
 //console.log(frutas[1].nome);
 
